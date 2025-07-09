@@ -12,6 +12,7 @@ const Articles = () => {
       readTime: "8 min read",
       date: "Jul 15, 2025",
       category: "Case Study",
+      image: "src/public/desdev.png",
       featured: true,
     },
     {
@@ -21,6 +22,7 @@ const Articles = () => {
       readTime: "6 min read",
       date: "Mar 20, 2025",
       category: "Workshop",
+      image: "src/public/workshop.png",
       featured: true,
     },
     {
@@ -123,6 +125,16 @@ const Articles = () => {
                 className="hover-scale group border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-white to-slate-50"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
+                
+                <div className="relative overflow-hidden">
+                <img
+                  src={article.image}
+                  alt={article.title}
+                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              </div>
+
                 <CardHeader className="pb-3">
                   <div className="flex items-center justify-between mb-3">
                     <span className={`px-3 py-1 rounded-full text-xs font-medium ${getCategoryColor(article.category)}`}>

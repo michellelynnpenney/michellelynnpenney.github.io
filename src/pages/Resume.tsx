@@ -7,8 +7,8 @@ const Resume = () => {
   const skills = {
     design: ["Figma", "Sketch", "Adobe Creative Suite", "Prototyping", "User Research", "Wireframing"],
     development: ["React", "TypeScript", "Next.js", "Vue.js", "Tailwind CSS", "Node.js"],
-    tools: ["Git", "Webpack", "Jest", "Storybook", "Jira", "Confluence"],
-    methods: ["Agile", "Design Thinking", "User Testing", "A/B Testing", "Accessibility", "Performance"]
+    tools: ["Git", "Storybook", "VS Code", "Jira", "Confluence", "Miro", "MS Office"],
+    methods: ["Agile", "Design Thinking", "User Testing", "A/B Testing", "Accessibility"]
   };
 
   const experience = [
@@ -49,24 +49,21 @@ const Resume = () => {
 
   const education = [
     {
-      degree: "Master of Human-Computer Interaction",
-      school: "Carnegie Mellon University",
-      year: "2018",
-      details: "Focus on User Research and Interface Design"
-    },
-    {
-      degree: "Bachelor of Computer Science",
-      school: "University of California, Berkeley",
-      year: "2016",
-      details: "Minor in Cognitive Science"
+      degree: "Bachelor of Fine Arts",
+      school: "University of Connecticut",
+      year: "2014",
+      details: "Minor in Digital Media"
     }
   ];
 
   const certifications = [
-    "Google UX Design Professional Certificate",
-    "AWS Certified Developer Associate",
-    "Certified Usability Analyst (CUA)",
-    "Accessibility Developer Certification"
+    "HarvardX CS50 Intro to Computer Science",
+    "Google Cloud Conversational AI",
+    "IBM F&O Management Assessment Program",
+    "WorkBoard OKR Expert",
+    "IBM Agile Iteration Management",
+    "IBM Design Thinking Practitioner",
+    "General Assembly: UX Design Immersive",
   ];
 
   return (
@@ -78,30 +75,30 @@ const Resume = () => {
             Michelle Sargent
           </h1>
           <p className="text-xl text-slate-600 mb-6">
-            UX Engineer & Designer
+            Full-stack Designer
           </p>
           
           {/* Contact Info */}
           <div className="flex flex-wrap justify-center gap-6 mb-8 text-slate-600">
             <div className="flex items-center">
               <Mail className="h-4 w-4 mr-2" />
-              <a href="mailto:michelle@example.com" className="hover:text-blue-600 transition-colors">
-                michelle@example.com
+              <a href="mailto:michellelynnpenney@gmail.com" className="hover:text-blue-600 transition-colors">
+                michellelynnpenney@gmail.com
               </a>
             </div>
             <div className="flex items-center">
               <MapPin className="h-4 w-4 mr-2" />
-              <span>San Francisco, CA</span>
+              <span>Fairfield, CT</span>
             </div>
             <div className="flex items-center">
               <Linkedin className="h-4 w-4 mr-2" />
-              <a href="#" className="hover:text-blue-600 transition-colors">
+              <a href="https://www.linkedin.com/in/michellelynnsargent/" className="hover:text-blue-600 transition-colors">
                 LinkedIn
               </a>
             </div>
             <div className="flex items-center">
               <Github className="h-4 w-4 mr-2" />
-              <a href="#" className="hover:text-blue-600 transition-colors">
+              <a href="https://github.com/michellelynnpenney/" className="hover:text-blue-600 transition-colors">
                 GitHub
               </a>
             </div>
@@ -123,10 +120,7 @@ const Resume = () => {
           </CardHeader>
           <CardContent>
             <p className="text-slate-700 leading-relaxed">
-              Passionate UX Engineer with 6+ years of experience bridging the gap between design and development. 
-              Specialized in creating user-centered digital experiences through research-driven design and modern 
-              frontend technologies. Proven track record of improving user satisfaction, reducing development time, 
-              and leading cross-functional teams in fast-paced environments.
+              Michelle has a decade of experience at the intersection of design, technology, and human-centered innovation. With a strong foundation in UI/UX Design and a passion for creating transformative internal experiences, Michelle leads cross-functional teams to shape intuitive, scalable, and inclusive solutions for Cisco's global workforce. Whether coding alongside engineering partners, reviewing PRs, mentoring emerging talent, facilitating agile ceremonies, or advocating for the end user, Michelle brings energy, empathy, and excellence to everything she does.
             </p>
           </CardContent>
         </Card>

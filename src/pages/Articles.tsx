@@ -208,7 +208,7 @@ const Articles = () => {
             I'm always excited to take on new challenges and collaborate on innovative projects.
           </p>
           <Button size="lg" asChild className="hover-scale">
-            <a href="mailto:michelle@example.com">
+            <a href="mailto:michellelynnpenney@gmail.com">
               Start a Conversation
             </a>
           </Button>

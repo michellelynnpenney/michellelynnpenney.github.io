@@ -12,7 +12,7 @@ const Portfolio = () => {
       image: "src/public/quotes.png",
       tags: ["Bootstrap 5", "JavaScript", "Node.js", "SQLite"],
       liveUrl: "https://www.youtube.com/watch?v=jAODOdZIjYQ",
-      codeUrl: "#",
+      codeUrl: "https://github.com/michellelynnpenney/cs50-final-project",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const Portfolio = () => {
       image: "src/public/taskie.png",
       tags: ["Data Science", "Research", "Prototyping", "AI"],
       liveUrl: "https://app.vidcast.io/share/79a1d3f5-b334-4bd6-9b66-e743c6b0e473",
-      codeUrl: "#",
+      codeUrl: "https://github.com/cisco-it-hackathon/frictionless-futures-ai",
     }
   ];
 
@@ -107,7 +107,7 @@ const Portfolio = () => {
             I'm always excited to take on new challenges and collaborate on innovative projects.
           </p>
           <Button size="lg" asChild className="hover-scale">
-            <a href="mailto:michelle@example.com">
+            <a href="mailto:michellelynnpenney@gmail.com">
               Start a Conversation
             </a>
           </Button>

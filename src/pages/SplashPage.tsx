@@ -108,7 +108,7 @@ const SplashPage = () => {
             Ready to discuss your next project? I'd love to hear about it.
           </p>
           <Button asChild size="lg" variant="secondary" className="hover-scale">
-            <a href="mailto:michelle@example.com">
+            <a href="mailto:michellelynnpenney@gmail.com">
               Get In Touch
             </a>
           </Button>

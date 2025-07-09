@@ -20,7 +20,7 @@ const SplashPage = () => {
               </span>
             </h1>
             <p className="text-xl lg:text-2xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-              A passionate <strong>UX Engineer & Designer</strong> crafting beautiful, 
+              A passionate <strong>Full-stack Designer</strong> crafting beautiful, 
               intuitive digital experiences that bridge the gap between design and development.
             </p>
             

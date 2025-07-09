@@ -7,58 +7,22 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Dashboard",
-      description: "A comprehensive analytics dashboard for online retailers with real-time data visualization and user-friendly interface design.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      tags: ["React", "TypeScript", "D3.js", "UX Research"],
-      liveUrl: "#",
+      title: "HarvardX CS50 Final Project",
+      description: "Final project submission of a web application that generates random inspirational quotes and allows users to add their own quotes.",
+      image: "src/public/quotes.png",
+      tags: ["Bootstrap 5", "JavaScript", "Node.js", "SQLite"],
+      liveUrl: "https://www.youtube.com/watch?v=jAODOdZIjYQ",
       codeUrl: "#",
     },
     {
       id: 2,
-      title: "Healthcare Mobile App",
-      description: "Patient-centered mobile application focusing on appointment scheduling and health record management with accessibility in mind.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
-      tags: ["React Native", "User Testing", "Prototyping", "Accessibility"],
-      liveUrl: "#",
+      title: "Cisco IT Hackathon 2025",
+      description: "Team submission that leverages existing intercept surveys, AI provides links and walkthroughs directly into high-friction areas of Cisco's intranet sites.",
+      image: "src/public/taskie.png",
+      tags: ["Data Science", "Research", "Prototyping", "AI"],
+      liveUrl: "https://app.vidcast.io/share/79a1d3f5-b334-4bd6-9b66-e743c6b0e473",
       codeUrl: "#",
-    },
-    {
-      id: 3,
-      title: "Financial Planning Tool",
-      description: "Interactive web application helping users visualize their financial goals with intuitive charts and personalized recommendations.",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
-      tags: ["Vue.js", "Chart.js", "Design System", "User Journey"],
-      liveUrl: "#",
-      codeUrl: "#",
-    },
-    {
-      id: 4,
-      title: "Learning Management System",
-      description: "Modern LMS interface redesign focusing on student engagement and instructor workflow optimization through user-centered design.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
-      tags: ["Angular", "SCSS", "User Research", "Wireframing"],
-      liveUrl: "#",
-      codeUrl: "#",
-    },
-    {
-      id: 5,
-      title: "Smart Home Dashboard",
-      description: "IoT device management interface with real-time monitoring, automation controls, and responsive design across all devices.",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&h=400&fit=crop",
-      tags: ["Next.js", "WebSockets", "IoT", "Responsive Design"],
-      liveUrl: "#",
-      codeUrl: "#",
-    },
-    {
-      id: 6,
-      title: "Creative Portfolio Platform",
-      description: "Artist portfolio platform with focus on visual storytelling, image optimization, and seamless gallery experiences.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop",
-      tags: ["Gatsby", "GraphQL", "Performance", "Visual Design"],
-      liveUrl: "#",
-      codeUrl: "#",
-    },
+    }
   ];
 
   return (
@@ -119,7 +83,7 @@ const Portfolio = () => {
                   <Button size="sm" asChild className="flex-1">
                     <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="h-3 w-3 mr-1" />
-                      Live Demo
+                      Watch Demo
                     </a>
                   </Button>
                   <Button size="sm" variant="outline" asChild className="flex-1">

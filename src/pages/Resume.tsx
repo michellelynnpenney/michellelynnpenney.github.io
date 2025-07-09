@@ -13,36 +13,58 @@ const Resume = () => {
 
   const experience = [
     {
-      title: "Senior UX Engineer",
-      company: "TechFlow Solutions",
+      title: "Senior Product Designer",
+      company: "Cisco Systems",
       period: "2022 - Present",
-      description: "Leading design system development and UX engineering for enterprise SaaS platform serving 50K+ users.",
+      description: "Leading design system development for enterprise SaaS platforms serving 100K+ internal users.",
       achievements: [
-        "Reduced development time by 40% through design system implementation",
+        "Reduced development time by 40% through des/dev implementation practices",
         "Improved user satisfaction scores by 25% through UX research initiatives",
-        "Led cross-functional team of 8 designers and developers"
+        "Led design for cross-functional team"
       ]
     },
     {
-      title: "UX Designer & Frontend Developer",
-      company: "InnovateLab",
-      period: "2020 - 2022",
-      description: "Hybrid role focusing on user-centered design and frontend implementation for fintech applications.",
+      title: "Program Designer",
+      company: "IBM",
+      period: "2021 - 2022",
+      description: "Led the design for Learning from Incidents program, enhancing resilience engineering practices for 10K+ employees.",
       achievements: [
-        "Designed and developed 3 mobile-first web applications",
-        "Conducted user research with 200+ participants across 5 projects",
-        "Increased conversion rates by 35% through UX optimization"
+        "Designed and developed website, videos, and training materials",
+        "Conducted user research with 100+ participants",
+        "Maintained accessibility compliance (WCAG 2.1 AA) across all materials",
       ]
     },
     {
-      title: "Frontend Developer",
-      company: "CreativeWorks Agency",
-      period: "2018 - 2020",
-      description: "Specialized in creating responsive, accessible websites for diverse client portfolio.",
+      title: "Chief of Staff",
+      company: "IBM",
+      period: "2019 - 2022",
+      description: "",
       achievements: [
-        "Delivered 25+ responsive websites with 99.9% uptime",
-        "Achieved AA accessibility compliance across all projects",
-        "Mentored 3 junior developers in modern frontend practices"
+        "Facilitated OKR alignment across 10+ teams",
+        "Point of contact for executive leadership on design initiatives",
+        "Mentored 3 junior designers in modern design and multimedia practices"
+      ]
+    },
+        {
+      title: "Associate Visual Designer",
+      company: "IBM",
+      period: "2016 - 2019",
+      description: "Specialized in creating design deliverables for diverse client portfolio.",
+      achievements: [
+        "Created storyboards and videos for client presentations",
+        "Collaborated with cross-functional teams to deliver high-quality design solutions",
+        "Developed interactive prototypes for user testing and feedback"
+      ]
+    },
+        {
+      title: "Digital Marketing Specialist",
+      company: "The Hartford Financial Services Group",
+      period: "2014 - 2016",
+      description: "Specialized in coding, creating, and testing email campaigns.",
+      achievements: [
+        "Deployed 100+ email campaigns with 98% deliverability",
+        "Conducted A/B testing to optimize open rates by 20%",
+        "Coded with dynamic content for personalized user experiences"
       ]
     }
   ];
@@ -120,8 +142,9 @@ const Resume = () => {
           </CardHeader>
           <CardContent>
             <p className="text-slate-700 leading-relaxed">
-              Michelle has a decade of experience at the intersection of design, technology, and human-centered innovation. With a strong foundation in UI/UX Design and a passion for creating transformative internal experiences, Michelle leads cross-functional teams to shape intuitive, scalable, and inclusive solutions for Cisco's global workforce. Whether coding alongside engineering partners, reviewing PRs, mentoring emerging talent, facilitating agile ceremonies, or advocating for the end user, Michelle brings energy, empathy, and excellence to everything she does.
+              Michelle has a decade of experience at the intersection of design, technology, and human-centered innovation. With a strong foundation in UI/UX Design and a passion for creating transformative internal experiences, Michelle leads cross-functional teams to shape intuitive, scalable, and inclusive solutions for Cisco's global workforce. <br></br><br></br> Whether coding alongside engineering partners, reviewing PRs, mentoring emerging talent, facilitating agile ceremonies, or advocating for the end user, Michelle brings energy, empathy, and excellence to everything she does.
             </p>
+            
           </CardContent>
         </Card>
 
@@ -262,6 +285,20 @@ const Resume = () => {
               </div>
             </CardContent>
           </Card>
+        </div>
+                {/* CTA Section */}
+        <div className="text-center mt-20 p-12 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl">
+          <h2 className="text-2xl lg:text-3xl font-bold text-slate-900 mb-4">
+            Interested in Working Together?
+          </h2>
+          <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
+            I'm always excited to take on new challenges and collaborate on innovative projects.
+          </p>
+          <Button size="lg" asChild className="hover-scale">
+            <a href="mailto:michelle@example.com">
+              Start a Conversation
+            </a>
+          </Button>
         </div>
       </div>
     </div>

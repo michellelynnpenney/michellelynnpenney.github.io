@@ -7,20 +7,20 @@ const Articles = () => {
   const articles = [
     {
       id: 1,
-      title: "The Future of Design Systems: Building for Scale and Consistency",
-      description: "Exploring how modern design systems are evolving to meet the needs of large-scale applications while maintaining design consistency across teams.",
+      title: "The Tale of the Des/Dev Alliance",
+      description: "This is the story of how magic happens when design and development don't just coexist but truly join forces together.",
       readTime: "8 min read",
-      date: "Dec 15, 2024",
-      category: "Design Systems",
+      date: "Jul 15, 2025",
+      category: "Case Study",
       featured: true,
     },
     {
       id: 2,
-      title: "Bridging the Gap: From Designer to UX Engineer",
-      description: "My journey transitioning from pure design to UX engineering, and why this hybrid role is becoming increasingly valuable in product teams.",
+      title: "Becoming a Design Workshop Facilitator",
+      description: "A workshop facilitator is a role that is in service to the workshop attendees, and indirectly, the end user we are collectively striving to build a better experience for.",
       readTime: "6 min read",
-      date: "Nov 28, 2024",
-      category: "Career",
+      date: "Mar 20, 2025",
+      category: "Workshop",
       featured: true,
     },
     {
@@ -199,24 +199,19 @@ const Articles = () => {
           </div>
         </div>
 
-        {/* Newsletter CTA */}
-        <div className="text-center mt-20 p-12 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-3xl">
+        {/* CTA Section */}
+        <div className="text-center mt-20 p-12 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl">
           <h2 className="text-2xl lg:text-3xl font-bold text-slate-900 mb-4">
-            Stay Updated
+            Interested in Working Together?
           </h2>
           <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
-            Get notified when I publish new articles about design, development, and UX engineering.
+            I'm always excited to take on new challenges and collaborate on innovative projects.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            />
-            <Button size="lg" className="hover-scale">
-              Subscribe
-            </Button>
-          </div>
+          <Button size="lg" asChild className="hover-scale">
+            <a href="mailto:michelle@example.com">
+              Start a Conversation
+            </a>
+          </Button>
         </div>
       </div>
     </div>

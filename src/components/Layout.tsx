@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 
 const Layout = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100">
+    <div className="min-h-screen bg-background text-foreground">
       <Navigation />
       <main>
         <Outlet />

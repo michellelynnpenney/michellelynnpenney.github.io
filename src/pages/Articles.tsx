@@ -19,7 +19,7 @@ const Articles = () => {
       id: 2,
       title: "Becoming a Design Workshop Facilitator",
       description: "A workshop facilitator is a role that is in service to the workshop attendees, and indirectly, the end user we are collectively striving to build a better experience for.",
-      readTime: "5 min read",
+      readTime: " min read",
       date: "Mar 20, 2025",
       category: "Workshop",
       image: "/workshop.png",
@@ -161,10 +161,18 @@ const Articles = () => {
                       <Clock className="h-3 w-3 mr-1" />
                       {article.readTime}
                     </div>
-                    <Button variant="ghost" size="sm" className="group/btn">
-                      Read More
-                      <ArrowRight className="h-3 w-3 ml-1 transition-transform group-hover/btn:translate-x-1" />
-                    </Button>
+                    {article.url && (
+                      <Button asChild variant="ghost" size="sm" className="group/btn">
+                        <a
+                          href={article.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Read More
+                          <ArrowRight className="h-3 w-3 ml-1 transition-transform group-hover/btn:translate-x-1" />
+                        </a>
+                      </Button>
+                    )}
                   </div>
                 </CardContent>
               </Card>

@@ -23,7 +23,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="font-bold text-xl text-foreground hover:text-primary transition-colors">
-            <img src="public/ms.svg" alt="Michelle Sargent Logo" className="h-12 w-auto" />
+            <img src="/ms.svg" alt="Michelle Sargent Logo" className="h-12 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}

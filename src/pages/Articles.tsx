@@ -12,7 +12,7 @@ const Articles = () => {
       readTime: "8 min read",
       date: "Jul 15, 2025",
       category: "Case Study",
-      image: "public/desdev.png",
+      image: "/desdev.png",
       featured: true,
     },
     {
@@ -22,7 +22,7 @@ const Articles = () => {
       readTime: "6 min read",
       date: "Mar 20, 2025",
       category: "Workshop",
-      image: "public/workshop.png",
+      image: "/workshop.png",
       url: "https://www.linkedin.com/pulse/becoming-design-workshop-facilitator-michelle-sargent-ri2pe/",
       featured: true,
     },

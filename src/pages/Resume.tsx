@@ -126,12 +126,7 @@ const Resume = () => {
             </div>
           </div>
 
-          <Button size="lg" asChild className="hover-scale">
-  <a href="/michelle-sargent-resume.pdf" download>
-    <Download className="h-4 w-4 mr-2" />
-    Download PDF Resume
-  </a>
-</Button>
+
         </div>
 
         {/* Summary */}

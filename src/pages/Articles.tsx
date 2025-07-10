@@ -23,6 +23,7 @@ const Articles = () => {
       date: "Mar 20, 2025",
       category: "Workshop",
       image: "src/public/workshop.png",
+      url: "https://www.linkedin.com/pulse/becoming-design-workshop-facilitator-michelle-sargent-ri2pe/",
       featured: true,
     },
     {
@@ -112,6 +113,8 @@ const Articles = () => {
           </p>
         </div>
 
+        
+
         {/* Featured Articles */}
         <div className="mb-16">
           <h2 className="text-2xl font-bold text-slate-900 mb-8 flex items-center">
@@ -126,7 +129,7 @@ const Articles = () => {
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 
-                <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden rounded-t-lg">
                 <img
                   src={article.image}
                   alt={article.title}

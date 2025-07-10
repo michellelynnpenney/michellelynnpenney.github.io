@@ -1,5 +1,5 @@
 
-import { Download, Mail, Linkedin, Github, MapPin, Calendar, Award, Code, Palette, Users, Zap } from "lucide-react";
+import { Download, BriefcaseBusiness, Mail, Linkedin, Github, MapPin, GraduationCap, Calendar, Infinity, Award, Code, Palette, Users, Wrench, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -110,7 +110,7 @@ const Resume = () => {
             </div>
             <div className="flex items-center">
               <MapPin className="h-4 w-4 mr-2" />
-              <span>Fairfield, CT</span>
+              <span>NYC Metropolitan Area</span>
             </div>
             <div className="flex items-center">
               <Linkedin className="h-4 w-4 mr-2" />
@@ -126,10 +126,12 @@ const Resume = () => {
             </div>
           </div>
 
-          <Button size="lg" className="hover-scale">
-            <Download className="h-4 w-4 mr-2" />
-            Download PDF Resume
-          </Button>
+          <Button size="lg" asChild className="hover-scale">
+  <a href="/michelle-sargent-resume.pdf" download>
+    <Download className="h-4 w-4 mr-2" />
+    Download PDF Resume
+  </a>
+</Button>
         </div>
 
         {/* Summary */}
@@ -187,7 +189,10 @@ const Resume = () => {
               </div>
               
               <div>
-                <h4 className="font-semibold text-slate-800 mb-3">Tools & Platforms</h4>
+                 <h4 className="font-semibold text-slate-800 mb-3 flex items-center">
+                  <Wrench className="h-4 w-4 mr-2 text-green-600" />
+                  Tools & Platforms
+                </h4>
                 <div className="flex flex-wrap gap-2">
                   {skills.tools.map((skill) => (
                     <span key={skill} className="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">
@@ -198,7 +203,10 @@ const Resume = () => {
               </div>
               
               <div>
-                <h4 className="font-semibold text-slate-800 mb-3">Methods & Practices</h4>
+                <h4 className="font-semibold text-slate-800 mb-3 flex items-center">
+                  <Infinity className="h-4 w-4 mr-2 text-orange-600" />
+                  Methodologies & Practices
+                </h4>
                 <div className="flex flex-wrap gap-2">
                   {skills.methods.map((skill) => (
                     <span key={skill} className="px-3 py-1 bg-orange-100 text-orange-800 text-sm rounded-full">
@@ -215,7 +223,7 @@ const Resume = () => {
         <Card className="mb-8 border-0 shadow-lg">
           <CardHeader>
             <CardTitle className="flex items-center text-xl">
-              <Calendar className="h-5 w-5 mr-2 text-blue-600" />
+              <BriefcaseBusiness className="h-5 w-5 mr-2 text-blue-600" />
               Professional Experience
             </CardTitle>
           </CardHeader>
@@ -249,7 +257,7 @@ const Resume = () => {
           <Card className="border-0 shadow-lg">
             <CardHeader>
               <CardTitle className="flex items-center text-xl">
-                <Award className="h-5 w-5 mr-2 text-blue-600" />
+                <GraduationCap className="h-5 w-5 mr-2 text-blue-600" />
                 Education
               </CardTitle>
             </CardHeader>

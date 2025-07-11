@@ -16,7 +16,7 @@ const Resume = () => {
       title: "Senior Product Designer",
       company: "Cisco Systems",
       period: "2022 - Present",
-      description: "Leading design for Cisco IT's Insights Center application platform serving 100K+ internal users.",
+      description: "Leads design for Cisco IT's Insights Center application serving 90K+ internal users.",
       achievements: [
         "Reduced development time by 40% through des/dev implementation practices",
         "Improved Product Owner satisfaction scores by 25% through UX research initiatives",

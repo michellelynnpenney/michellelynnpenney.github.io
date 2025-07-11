@@ -19,7 +19,7 @@ const Resume = () => {
       description: "Leading design for Cisco IT's Insights Center application platform serving 100K+ internal users.",
       achievements: [
         "Reduced development time by 40% through des/dev implementation practices",
-        "Improved user satisfaction scores by 25% through UX research initiatives",
+        "Improved Product Owner satisfaction scores by 25% through UX research initiatives",
         "Led design for cross-functional team"
       ]
     },

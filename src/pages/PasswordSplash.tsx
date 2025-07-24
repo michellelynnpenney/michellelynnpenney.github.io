@@ -21,7 +21,7 @@ const PasswordSplash = ({ onAuthenticated }: PasswordSplashProps) => {
     setError("");
 
     // Simple password check - you can change this to your desired password
-    if (password === "portfolio2024") {
+    if (password === "sargent2025") {
       onAuthenticated();
     } else {
       setError("Incorrect password. Please try again.");
@@ -40,15 +40,17 @@ const PasswordSplash = ({ onAuthenticated }: PasswordSplashProps) => {
             <Lock className="h-8 w-8 text-blue-600" />
           </div>
           <CardTitle className="text-2xl font-bold">
-            Welcome to{" "}
+            Welcome to{" "}<br></br>
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
-              Michelle's Portfolio
-            </span>
+              Michelle Sargent's 
+            </span> <br></br>Portfolio
           </CardTitle>
           <CardDescription>
-            Please enter the password to view the portfolio
+            Please enter password to view portfolio.
           </CardDescription>
         </CardHeader>
+
+        
         
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">

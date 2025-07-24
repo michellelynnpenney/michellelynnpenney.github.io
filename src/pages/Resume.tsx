@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Resume = () => {
   const skills = {
-    design: ["Figma", "Sketch", "Adobe Creative Suite", "Prototyping", "User Research", "Wireframing"],
+    design: ["Figma", "Prototyping", "User Research", "Wireframing", "Adobe Creative Suite"],
     development: ["React", "TypeScript", "Next.js", "Vue.js", "Tailwind CSS", "Node.js"],
     tools: ["Git", "Storybook", "VS Code", "Jira", "Confluence", "Miro", "MS Office"],
     methods: ["Agile", "Design Thinking", "User Testing", "A/B Testing", "Accessibility"]
@@ -38,7 +38,7 @@ const Resume = () => {
       title: "Chief of Staff",
       company: "IBM",
       period: "2019 - 2022",
-      description: "",
+      description: "Strategic advisor for VP of Design, managing design operations and team alignment.",
       achievements: [
         "Facilitated OKR alignment across 10+ teams",
         "Point of contact for executive leadership on design initiatives",
@@ -126,7 +126,11 @@ const Resume = () => {
             </div>
           </div>
 
-
+          <Button size="lg" className="hover-scale">
+            <Download className="h-4 w-4 mr-2" />
+            <a href="/Michelle-Sargent_Resume.pdf" target="_blank" rel="noopener noreferrer">
+            Download PDF Resume</a>
+          </Button>
         </div>
 
         {/* Summary */}

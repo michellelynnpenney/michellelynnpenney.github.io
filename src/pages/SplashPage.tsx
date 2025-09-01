@@ -17,7 +17,7 @@ const SplashPage = () => {
               Hi, I'm{" "}
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
                 Michelle
-              </span>
+              </span>!
             </h1>
             <p className="text-xl lg:text-2xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed">
               A passionate <strong>Full-stack Designer</strong> crafting beautiful, 

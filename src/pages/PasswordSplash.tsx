@@ -24,7 +24,7 @@ const PasswordSplash = ({ onAuthenticated }: PasswordSplashProps) => {
     if (password === "sargent2025") {
       onAuthenticated();
     } else {
-      setError("Incorrect password. Please try again.");
+      setError("Hmm... Not quite. Please try again.");
     }
     
     setIsLoading(false);

@@ -79,6 +79,7 @@ const Resume = () => {
   ];
 
   const certifications = [
+    "MIT xPRO Designing & Building AI Products",
     "HarvardX CS50 Intro to Computer Science",
     "Google Cloud Conversational AI",
     "IBM F&O Management Assessment Program",
